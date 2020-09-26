@@ -19,7 +19,7 @@
 
 ## By Topics with links
 1. **Big O Notation** 
-2. **Problem Solving Patterns**
+2. **Problem Solving Patterns**  [Read](https://github.com/Saddamshah/ds-algo-learning/blob/master/Problem%20Solving%20Patterns.md)
 3. **Recursion**
 4. **Searching Algorithms**
 5. **Sorting Algorithms**
