@@ -1,11 +1,11 @@
 ## Problem Solving Patterns
 
 **A) Frequency Counter Pattern**   
-    &nbsp;  This pattern uses objects or sets to collect values / frequencies of values     
-    &nbsp;  This can often avoid the need for nested loops or `O(N^2)` operations with arrays / strings
+    &nbsp;  This pattern **uses objects** or sets to collect values / frequencies of values     
+    &nbsp;  This can often avoid the need for **nested loops** or `O(N^2)` operations with arrays / strings
     
 ## Example
->Write a function called same, which accepts two arrays. The function should return true if every value in the array has it's corresponding value squared in the second array. The frequency of values must be the same.
+>Write a function called **same**, which accepts two arrays. The function should return **true** if every value in the array has it's **corresponding value squared** in the second array. The **frequency of values must be the same.**
 
 ```javascript
 same([1,2,3], [4,1,9]) // true
@@ -60,7 +60,7 @@ function same(arr1, arr2){
 Time Complexity - O(n)
 ```
 ### Exercise No 1
-> Given two strings, write a function to determine if the second string is an anagram of the first. An anagram is a word, phrase, or name formed by rearranging the letters of another, such as _cinema_, formed from _iceman_.
+> Given two strings, write a function to determine if the second string is an **anagram** of the first. An anagram is a word, phrase, or name formed by rearranging the letters of another, such as _cinema_, formed from _iceman_.
 
 ```javascript
 validAnagram('', '')                 // true 
@@ -73,7 +73,7 @@ validAnagram('texttwisttime', 'timetwisttext')  // true
 ```
 
 ### Exercise No 2
-> Write a function called sameFrequency. Given two integers, find out if the two numbers have the same frequency of digits. Your solution MUST have Time: O(N)
+> Write a function called **sameFrequency**. Given two integers, find out if the two numbers have the **same frequency of digits**. Your solution MUST have **Time: O(N)**
 
 ```javascript
 sameFrequency(182.281)           //true
@@ -83,7 +83,7 @@ sameFrequency(22, 222)           //false
 ```
 
 ### Exercise No 3
-> Implement a function called, areThereDuplicates which accepts a variable number of arguments, and checks whether there are any duplicates among the arguments passed in. Time - O(N) Space - O(N)
+> Implement a function called, **areThereDuplicates** which accepts a variable number of arguments, and checks whether there are any duplicates among the arguments passed in. **Time - O(N) Space - O(N)**
 
 ```javascript
 areThereDuplicates(1, 2, 3)  //false  
