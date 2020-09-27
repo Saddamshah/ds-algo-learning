@@ -42,6 +42,6 @@
 * [hackerearth](https://www.hackerearth.com/challenges/)
 
 ## Selected Problem for Practice
-* **Improve Your Fundamentals** [Read](www.example.com)
+* **Improve Your Fundamentals** [Read](https://github.com/Saddamshah/ds-algo-learning/blob/master/Improve%20Fundamentals.md)
 
 `Happy Coding 😃`
