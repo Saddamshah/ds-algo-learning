@@ -59,3 +59,25 @@ function same(arr1, arr2){
 
 Time Complexity - O(n)
 ```
+### Exercise No 1
+> Given two strings, write a function to determine if the second string is an anagram of the first. An anagram is a word, phrase, or name formed by rearranging the letters of another, such as _cinema_, formed from _iceman_.
+
+```javascript
+validAnagram('', '')                 // true 
+validAnagram('aaz', 'zza')           // false 
+validAnagram('anagram', 'nagaram')   // true 
+validAnagram("rat","car")            // false 
+validAnagram('awesome', 'awesom')    // false 
+validAnagram('qwerty', 'qeywrt')     // true 
+validAnagram('texttwisttime', 'timetwisttext')  // true
+```
+
+### Exercise No 2
+> Write a function called sameFrequency. Given two integers, find out if the two numbers have the same frequency of digits. Your solution MUST have Time: O(N)
+
+```javascript
+sameFrequency(182.281)           //true
+sameFrequency(34, 14)            //false
+sameFrequency(3589578, 5879385)  //true
+sameFrequency(22, 222)           //false
+```
