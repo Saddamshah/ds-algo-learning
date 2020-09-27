@@ -6,7 +6,7 @@
 * [JS Fiddle](https://jsfiddle.net/) 
 * [Play Code](http://playcode.io/)
 
-#### Study Chart 
+### Study Chart 
 * [Study Topics](https://drive.google.com/file/d/1xwhmP0MZAXApNPEO_ZvMjM70a3-7yvKB/view)
 
 ```javascript
@@ -34,5 +34,14 @@
 14. **Graphs**
 15. **Graph Traversal**
 16. **Dijkstra's Algorithm**
+
+## Website for Coding Pratice
+* [leedcode](https://leetcode.com/problemset/all/)
+* [hackerrank](https://www.hackerrank.com/dashboard)
+* [codewars](https://www.codewars.com/dashboard)
+* [hackerearth](https://www.hackerearth.com/challenges/)
+
+## Selected Problem for Practice
+* **Improve Your Fundamentals** [Read](www.example.com)
 
 `Happy Coding 😃`
