@@ -60,7 +60,7 @@ function same(arr1, arr2){
 Time Complexity - O(n)
 ```
 ### Exercise No 1
-> Given two strings, write a function to determine if the second string is an **anagram** of the first. An anagram is a word, phrase, or name formed by rearranging the letters of another, such as _cinema_, formed from _iceman_.
+> Given two strings, write a function to determine if the second string is an **anagram** of the first. An anagram is a word, phrase, or name formed by rearranging the letters of another, **such as _cinema_, formed from _iceman_**.
 
 ```javascript
 validAnagram('', '')                 // true 
