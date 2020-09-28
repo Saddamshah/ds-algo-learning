@@ -59,3 +59,14 @@ isPrime(73)  // true   73 is prime
 isPrime(75)  // false  75 is not prime
 isPrime(-1)  // false  -1 is not prime
 ```
+
+### Exercise No 6
+>**Remove Element**
+> Given an array nums and a value val, remove all instances of that value in-place and return the new length.
+**Do not allocate extra space for another array**, you must do this by **modifying the input array in-place** with O(1) extra memory.
+
+```javascript
+removeElement([3,2,2,3], 3)             // 2;
+removeElement([0,1,2,2,3,0,4,2], 2)     // 5;
+removeElement([2,3,8,0,9,1,0,4,2], 0)   // 7;
+```
