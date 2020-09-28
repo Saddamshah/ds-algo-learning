@@ -70,3 +70,15 @@ removeElement([3,2,2,3], 3)             // 2;
 removeElement([0,1,2,2,3,0,4,2], 2)     // 5;
 removeElement([2,3,8,0,9,1,0,4,2], 0)   // 7;
 ```
+
+### Exercise No 7
+>**Search Insert Position**   
+> Given a sorted array and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+You may assume no duplicates in the array.
+
+```javascript
+searchInsert([1,3,5,6], 5)  // 2;
+searchInsert([1,3,5,6], 2)  // 1;
+searchInsert([1,3,5,6], 7)  // 4;
+searchInsert([1,3,5,6], 0)  // 0;
+```
