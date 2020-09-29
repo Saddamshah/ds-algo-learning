@@ -1,10 +1,10 @@
 ## Problem Solving Patterns
 
-**A) Frequency Counter Pattern**   
-    &nbsp;  This pattern **uses objects** or sets to collect values / frequencies of values     
-    &nbsp;  This can often avoid the need for **nested loops** or `O(N^2)` operations with arrays / strings
+## A) Frequency Counter Pattern  
+     This pattern **uses objects** or sets to collect values / frequencies of values     
+     This can often avoid the need for **nested loops** or `O(N^2)` operations with arrays / strings
     
-## Example
+### Example
 >Write a function called **same**, which accepts two arrays. The function should return **true** if every value in the array has it's **corresponding value squared** in the second array. The **frequency of values must be the same.**
 
 ```javascript
@@ -99,11 +99,11 @@ twoSum([3, 2, 4], 6)       // [1, 2]
 twoSum([3,3], 6)           // [0, 1]
 ```
 
-**B) Multiple Pointers Pattern**   
-    &nbsp;  Creating pointers or values that correspond to an index or position and move towards the beginning, end or middle based on a certain condition.     
-    &nbsp;  Very efficient for solving problems with minimal Space as well.
+## B) Multiple Pointers Pattern  
+     Creating pointers or values that correspond to an index or position and move towards the beginning, end or middle based on a certain condition.     
+     Very efficient for solving problems with minimal Space as well.
     
-## Example
+### Example
 > Write a function called sumZero which accepts a sorted array of integers. The function should find the first pair where the sum is 0. Return an array that includes both values that sum to zero or undefined if a pair does not exist.
     
 ```javascript
@@ -166,12 +166,12 @@ isSubsequence('sing', 'sting'); // true
 isSubsequence('abc', 'acb'); // false (order matters)
 ```
 
-**C) Sliding Window Pattern**   
-    &nbsp;  This pattern involves creating a window which can either be an array or number from one position to another.    
-    &nbsp;  Depending on a certain condition, the window either    increases or closes (and a new window is created).       
-    &nbsp;  Very useful for keeping track of a subset of data in an array/string etc.
+## C) Sliding Window Pattern   
+      This pattern involves creating a window which can either be an array or number from one position to another.    
+      Depending on a certain condition, the window either    increases or closes (and a new window is created).       
+      Very useful for keeping track of a subset of data in an array/string etc.
     
-## Example
+### Example
 > Write a function called maxSubarraySum which accepts an array of integers and a number called n. The function should calculate the maximum sum of n consecutive elements in the array.
 
 ```javascript
