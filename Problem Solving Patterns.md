@@ -99,7 +99,7 @@ twoSum([3, 2, 4], 6)       // [1, 2]
 twoSum([3,3], 6)           // [0, 1]
 ```
 
-**A) Multiple Pointers Pattern**   
+**B) Multiple Pointers Pattern**   
     &nbsp;  Creating pointers or values that correspond to an index or position and move towards the beginning, end or middle based on a certain condition.     
     &nbsp;  Very efficient for solving problems with minimal Space as well.
     
@@ -164,4 +164,82 @@ averagePair([], 4); // false
 isSubsequence('hello', 'hello world'); // true
 isSubsequence('sing', 'sting'); // true
 isSubsequence('abc', 'acb'); // false (order matters)
+```
+
+**C) Sliding Window Pattern**   
+    &nbsp;  This pattern involves creating a window which can either be an array or number from one position to another.    
+    &nbsp;  Depending on a certain condition, the window either    increases or closes (and a new window is created).       
+    &nbsp;  Very useful for keeping track of a subset of data in an array/string etc.
+    
+## Example
+> Write a function called maxSubarraySum which accepts an array of integers and a number called n. The function should calculate the maximum sum of n consecutive elements in the array.
+
+```javascript
+maxSubarraySum([1, 2, 5, 2, 8, 1, 5], 2); // 10
+maxSubarraySum([1, 2, 5, 2, 8, 1, 5], 4); // 17
+maxSubarraySum([4, 2, 1, 6], 1); // 6
+maxSubarraySum([], 4); // null
+```    
+
+### A NAIVE SOLUTION
+```javascript
+const maxSubarraySum = (arr, n) => {
+  if (n > arr.length) return null;
+
+  let ret = -Infinity;
+
+  for (let i = 0; i < arr.length - n + 1; i++) {
+    let temp = 0;
+    for (let j = 0; j < n; j++)
+      temp += arr[i + j];
+
+    ret = Math.max(ret, temp);
+  }
+
+  return ret;
+};
+
+Time Complexity O(N^2)
+```
+
+### REFACTORED
+```javascript
+const maxSubarraySum = (arr, n) => {
+  if (arr.length < n) return null;
+
+  let ret = 0;
+  let temp = 0;
+
+  for (let i = 0; i < n; i++) ret += arr[i];
+
+  temp = ret;
+  for (let i = n; i < arr.length; i++) {
+    temp = temp - arr[i - n] + arr[i];
+    ret = Math.max(ret, temp);
+  }
+
+  return ret;
+};
+
+Time Complexity O(N)  | Space Complexity O(1)
+```
+
+### Exercise No 1
+> Write a function called minSubArrayLen which accepts two parameters - an array of positive integers and a positive integer.
+This function should return the minimal length of a contiguous subarray of which the sum is greater than or equal to the integer passed to the function. If there isn’t one, return 0 instead.
+
+```javascript
+minSubArrayLen([2, 3, 1, 2, 4, 3], 7); // 2 -> because [4, 3] is the smallest subarray
+minSubArrayLen([2, 1, 6, 5, 4], 9); // 2 -> because [5, 4] is the smallest subarray
+minSubArrayLen([3, 1, 62, 19], 52); // 1 -> because [62] is greater than 52
+```
+
+### Exercise No 2
+> Write a function called findLongestSubstring, which accepts a string and returns the length of the longest substring with all distinct characters.
+
+```javascript
+findLongestSubstring(''); // 0
+findLongestSubstring('rithmschool'); // 7
+findLongestSubstring('thecatinthehat'); // 7
+findLongestSubstring('bbbbbb'); // 1
 ```
