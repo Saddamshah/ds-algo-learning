@@ -98,3 +98,19 @@ generate(5) // output below
 ]
 ```
 **Video Solution Link** [Here](https://youtu.be/7pOzP9m_bX8)
+
+### Exercise No 9
+> **Implement strStr()**    
+> Return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
+
+```javascript
+strStr('aaaaa', 'bba')           // -1
+strStr('hello', 'll')            // 2
+strStr("mississippi", "issip")   // 4
+
+//Starting Boilerplate
+const strStr = (haystack, needle) => {
+  //Your Code
+};
+
+```
