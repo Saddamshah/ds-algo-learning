@@ -166,6 +166,25 @@ isSubsequence('sing', 'sting'); // true
 isSubsequence('abc', 'acb'); // false (order matters)
 ```
 
+### Exercise No 4
+> **Long Pressed Name**   
+> Your friend is typing his name into a keyboard.  Sometimes, when typing a character c, the key might get long pressed,    
+   and the character will be typed 1 or more times. You examine the typed characters of the keyboard.     
+   Return True if it is possible that it was your friends name, with some characters (possibly none) being long pressed.
+
+```javascript
+isLongPressedName("alex", "aaleex")  // true = 'a' and 'e' in 'alex' were long pressed.
+isLongPressedName("saeed","ssaaedd") // false = 'e' must have been pressed twice, but it wasn't in the typed 
+isLongPressedName("kikcxmvzi","kiikcxxmmvvzz") // false = 'i' is not there
+isLongPressedName("laiden", "laiden") // true = It's not necessary to long press any character.
+
+const  isLongPressedName = function(name, typed) {
+     //Your Code
+}
+```
+
+
+
 ## C) Sliding Window Pattern   
       This pattern involves creating a window which can either be an array or number from one position to another.    
       Depending on a certain condition, the window either    increases or closes (and a new window is created).       
