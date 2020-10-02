@@ -123,29 +123,3 @@ const strStr = (haystack, needle) => {
 intersection([1,2,2,1], [2,2]);     // [2]
 intersection([4,9,5],[9,4,9,8,4]);  // [9,4]
 ```
-
-# Solutions
-
-#### Ex No. 10 : Intersection of Two Arrays
-```javascript
-const intersection = (nums1, nums2) => {
-    if(nums2.length === 0 && nums1.length === 0) {
-        return [];
-    };
-    
-    let compaire = {};
-    let result   = {};
-    
-    for(let val of nums2){
-        compaire[val] = (compaire[val] || 0)+1
-    }
-    
-    for(let value of nums1){
-        if(value in compaire){
-            result[value] = (result[value] || 0)+1
-        }
-    }
-    
-    return Object.keys(result);
-};
-```
