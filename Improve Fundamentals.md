@@ -35,7 +35,7 @@ moveZeros([1,2,0,1,0,1,0,3,0,1])     // [ 1, 2, 1, 1, 3, 1, 0, 0, 0, 0 ]
 ```
 
 ### Exercise No 4
-> **Array.diff**    
+> **Array.diff `imporant`**    
 > Your goal in this problem is to implement a difference function, which subtracts one list from another and returns the result.
 It should remove all values from list a, which are present in list b. If a value is present in b, all of its elements must be removed from the other
 
