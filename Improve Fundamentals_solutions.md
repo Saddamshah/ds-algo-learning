@@ -104,8 +104,8 @@ const intersection = (nums1, nums2) => {
     let compaire = {};
     let result   = {};
     
-    for(let val of nums2){
-        compaire[val] = (compaire[val] || 0)+1
+    for(let value of nums2){
+        compaire[value] = (compaire[value] || 0)+1
     }
     
     for(let value of nums1){
