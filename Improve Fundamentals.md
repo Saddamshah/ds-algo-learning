@@ -112,5 +112,14 @@ strStr("mississippi", "issip")   // 4
 const strStr = (haystack, needle) => {
   //Your Code
 };
-
 ```
+
+### Exercise No 10
+> **Intersection of Two Arrays `important`**   
+> Given two arrays, write a function to compute their intersection.
+
+```javascript
+intersection([1,2,2,1], [2,2]);     // [2]
+intersection([4,9,5],[9,4,9,8,4]);  // [9,4]
+```
+
