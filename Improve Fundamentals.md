@@ -62,7 +62,7 @@ isPrime(-1)  // false  -1 is not prime
 ```
 
 ### Exercise No 6
->**Remove Element**    
+>**Remove Element `important`**    
 > Given an array nums and a value val, remove all instances of that value in-place and return the new length.
 **Do not allocate extra space for another array**, you must do this by **modifying the input array in-place** with O(1) extra memory.
 
@@ -84,7 +84,7 @@ searchInsert([1,3,5,6], 7)  // 4;
 searchInsert([1,3,5,6], 0)  // 0;
 ```
 ### Exercise No 8
->**Pascal's Triangle**      
+>**Pascal's Triangle `important`**      
 ![pascal's Triangle](https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif)   
 > Given a non-negative integer numRows, generate the first numRows of Pascal's triangle.  
 
@@ -101,7 +101,7 @@ generate(5) // output below
 **Video Solution Link** [Here](https://youtu.be/7pOzP9m_bX8)
 
 ### Exercise No 9
-> **Implement strStr()**    
+> **Implement strStr() `important`**    
 > Return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
 
 ```javascript
