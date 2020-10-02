@@ -91,8 +91,27 @@ const arrayDiff = (arr1, arr2) => {
 }
 ```
 
+### Exercise No 5
+> **Is a number prime?**
+
+```javascript
+function isPrime(num) {
+    if(num <= 1) return false;
+    if(num === 2 || num === 3) return true;
+
+    for(let i = 5; i < Math.sqrt(num); i+= 2){
+        console.log(num + ":" + i )
+        if(num % i === 0) {
+            return false;
+        }
+    }
+
+    return true;
+}
+```
+
 ### Exerise No. 10 
->  Intersection of Two Arrays
+>  **Intersection of Two Arrays**
 
 ```javascript
 //First Solution
