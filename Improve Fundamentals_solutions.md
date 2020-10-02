@@ -110,6 +110,81 @@ function isPrime(num) {
 }
 ```
 
+### Exercise No. 6
+> **Remove Element**
+
+```javascript
+function removeElement(arr, target){
+    for(let i = 0; i < arr.length; i++){
+        if(arr[i] === target){
+            arr.splice(i,1);
+            i--;
+        }
+    }
+
+    return arr.length;
+}
+```
+
+### Exercise No 7
+> **Search Insert Position**
+
+```javascript
+//First Solution
+function searchInsert(nums, target) {
+    let i = 0;
+    while(nums[i] <= target){
+        if(nums[i] == target) return i;
+      i++;  
+    }
+    return i; 
+};
+```
+
+```javascript
+//Second Solution
+function searchInsert(arr, target) {
+    let i = 0;
+    while(arr[i] <= target){
+        if(arr[i] == target) return i;
+      i++;  
+    }
+    return i; 
+};
+```
+
+### Exercise No 8
+> **Pascal's Triangle**
+
+```javascript
+function generate(num){
+    let triange = [];
+    triange.push([1]);
+     
+    for(let i = 1; i < num; i++){
+        let preRow = triange[i -1];
+        let newRow = [1];
+
+        for(let j = 1; j < preRow.length; j++) 
+            newRow.push(preRow[j-1] + preRow[j])
+
+        newRow.push(1)
+        triange.push(newRow)
+    }
+    return triange;
+}
+```
+**Video Solution Link** [Here](https://youtu.be/7pOzP9m_bX8)
+
+### Exercise No 9
+> **Implement strStr()**
+
+```javascript
+function strStr(haystack, needle){
+    return haystack.indexOf(needle);
+}
+```
+
 ### Exerise No. 10 
 >  **Intersection of Two Arrays**
 
