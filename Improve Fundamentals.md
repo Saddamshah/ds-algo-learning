@@ -37,7 +37,7 @@ moveZeros([1,2,0,1,0,1,0,3,0,1])     // [ 1, 2, 1, 1, 3, 1, 0, 0, 0, 0 ]
 ### Exercise No 4
 > **Array.diff**    
 > Your goal in this problem is to implement a difference function, which subtracts one list from another and returns the result.
-It should remove all values from list a, which are present in list b. If a value is present in b, all of its occurrences must be removed from the other
+It should remove all values from list a, which are present in list b. If a value is present in b, all of its elements must be removed from the other
 
 ```javascript
 arrayDiff([1,2],[1])         // [2]
@@ -45,6 +45,7 @@ arrayDiff([1,2,2,2,3],[2])   // [1,3]
 arrayDiff([], [4,5])         // []
 arrayDiff([3,4], [3])        // [4]
 arrayDiff([1,8,2], [])       // [1,8,2]
+arrayDiff([1,8,2, 8, 5, 3], [3, 8, 5])   // [1, 2]
 ```
 
 ### Exercise No 5
