@@ -83,6 +83,7 @@ searchInsert([1,3,5,6], 2)  // 1;
 searchInsert([1,3,5,6], 7)  // 4;
 searchInsert([1,3,5,6], 0)  // 0;
 ```
+
 ### Exercise No 8
 >**Pascal's Triangle `important`**      
 ![pascal's Triangle](https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif)   
@@ -98,7 +99,6 @@ generate(5) // output below
  [1,4,6,4,1]
 ]
 ```
-**Video Solution Link** [Here](https://youtu.be/7pOzP9m_bX8)
 
 ### Exercise No 9
 > **Implement strStr() `important`**    
