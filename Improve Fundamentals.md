@@ -145,7 +145,7 @@ findNextSquare(114) // returns -1 since 114 is not a perfect
 ```
 
 ### Exercise No 13
->**IQ Test important**     
+>**IQ Test important `important`**     
 > Write a function call **iqTest** and  find out  which one of the given numbers differs from the others.     
 ! Keep in mind that indexes of the elements start from 1 (not 0)
 
