@@ -1,6 +1,9 @@
 # Let's Improve Your Fundamentals.
 > **_Practice Is The Only Way To Improve_**
 
+| **No of Exercises** | **No of Important Exercises** | **Solution Center** |
+|:-------------------:|:-----------------------------:|:-------------------:|
+|        **13**       |            **6**              |  [Are You Ready](https://github.com/Saddamshah/ds-algo-learning/blob/master/Improve%20Fundamentals_solutions.md) |
 
 ### Exercise No 1 
 > **Extract the domain name from a URL**   
@@ -145,7 +148,7 @@ findNextSquare(114) // returns -1 since 114 is not a perfect
 ```
 
 ### Exercise No 13
->**IQ Test important `important`**     
+>**IQ Test `important`**     
 > Write a function call **iqTest** and  find out  which one of the given numbers differs from the others.     
 ! Keep in mind that indexes of the elements start from 1 (not 0)
 
