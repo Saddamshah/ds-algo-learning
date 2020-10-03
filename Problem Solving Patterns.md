@@ -1,4 +1,11 @@
-## Problem Solving Patterns
+## PROBLEM SOLVING PATTERNS
+   |**Pattern Name** | **Problem Count** |
+   |:---------------|:-------:|
+   | 1. Frequency Counter Pattern | 5 |
+   | 2. Multiple Pointers Pattern | 5 |
+   | 3. Sliding Window Pattern    | 3 |
+   |**Total No of Problems** | **13** |
+
 
 ## A) Frequency Counter Pattern  
      This pattern **uses objects** or sets to collect values / frequencies of values     
@@ -255,3 +262,7 @@ findLongestSubstring('rithmschool'); // 7
 findLongestSubstring('thecatinthehat'); // 7
 findLongestSubstring('bbbbbb'); // 1
 ```
+
+# SOLUTIONS
+## A) Frequency Counter Pattern  
+
