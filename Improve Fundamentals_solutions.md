@@ -240,3 +240,40 @@ function findNextSquare(sq){
 }
 ```
 
+### Exercise No 13
+>**IQ Test**   
+
+```javascript
+//First Solution
+function iqTest(nums){
+
+    let numsArr = nums.split(' ');
+    let even = 0;
+    let odd  = 0;
+
+    numsArr.forEach
+            (n => n % 2 !== 0 ? odd += 1: even += 1)
+
+    if(even < odd) 
+        for(let i = 0; i < numsArr.length; i++) {
+             if(numsArr[i] % 2 === 0)
+                return i+1;  
+        } 
+    else 
+        for(let i = 0; i < numsArr.length; i++)
+             if(numsArr[i] % 2 !== 0)
+                return i+1;  
+}
+```
+```javascript
+//Second Solution
+function iqTest(numbers){
+  numbers = numbers.split(" ").map(function(el){return parseInt(el)});
+  
+  var odd = numbers.filter(function(el){ return el % 2 === 1});
+  var even = numbers.filter(function(el){ return el % 2 === 0});
+  
+  return odd.length < even.length ? (numbers.indexOf(odd[0]) + 1) : (numbers.indexOf(even[0]) + 1);
+}
+```
+
