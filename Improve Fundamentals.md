@@ -143,3 +143,13 @@ findNextSquare(121) // returns 144
 findNextSquare(625) // returns 676
 findNextSquare(114) // returns -1 since 114 is not a perfect
 ```
+
+### Exercise No 13
+>**IQ Test important**     
+> Write a function call **iqTest** and  find out  which one of the given numbers differs from the others.     
+! Keep in mind that indexes of the elements start from 1 (not 0)
+
+```javascript
+iqTest("2 4 7 8 10") => 3 // Third number is odd, while the rest of the numbers are even
+iqTest("1 2 1 1") => 2 // Second number is even, while the rest of the numbers are odd
+```
