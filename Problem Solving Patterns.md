@@ -6,6 +6,8 @@
    | 3. Sliding Window Pattern    | 3      | [Read & Explore](#c-sliding-window-pattern)    |
    |**Total No of Exercises**      | **13** | **Let Practice** |
 
+   |**Solution Center** | [Let Go!](#solution-center) |
+   |:----------------------:|:---------------------------------------------:|
 
 ## A) Frequency Counter Pattern  
      This pattern **uses objects** or sets to collect values / frequencies of values     
@@ -261,13 +263,13 @@ findLongestSubstring('thecatinthehat'); // 7
 findLongestSubstring('bbbbbb'); // 1
 ```
 
-# SOLUTIONS
+# SOLUTION CENTER
  |**Pattern Name** | **Solution Count**  | **Solution Link** |
- |:----------------|:-------------------:|-------------------|
- | 1. Frequency Counter Pattern |   4    | [Read & Explore](#a-frequency-counter-pattern) |
- | 2. Multiple Pointers Pattern |   4    | [Read & Explore](#b-multiple-pointers-pattern) |
- | 3. Sliding Window Pattern    |   2    | [Read & Explore](#c-sliding-window-pattern)    |
- |**Total No of Solution**      | **10** | **Let Practice** |
+ |:----------------|:-------------------:|:-----------------:|
+ | 1. Frequency Counter Pattern |   4    | [See & Practice](#a-frequency-counter-pattern-solution) |
+ | 2. Multiple Pointers Pattern |   4    | [See & Practice](#b-multiple-pointers-pattern-solution) |
+ | 3. Sliding Window Pattern    |   2    | [See & Practice](#c-sliding-window-pattern-solution)    |
+ |**Total No of Solution**      | **10** | **Now Practice Without Answer** |
  
 ## A) Frequency Counter Pattern Solution
 
