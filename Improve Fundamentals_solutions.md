@@ -220,3 +220,23 @@ const intersection = (nums1, nums2) => {
   return [...set1].filter(n => set2.has(n))
 };
 ```
+
+### Exercise No 11
+> **capitalized**    
+
+```javascript
+function capitalized(str){
+    return str.split(" ").map(char => char[0].toUpperCase() + char.slice(1)).join(' ');
+}
+```
+
+### Exercise No 12
+>**Find the next perfect square!**   
+
+```javascript
+function findNextSquare(sq){
+    let square = Math.floor(Math.sqrt(sq));
+    return square * square !== sq ? -1 : (square+1) * (square+1) 
+}
+```
+
