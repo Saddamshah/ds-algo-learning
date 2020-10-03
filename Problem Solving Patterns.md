@@ -263,7 +263,7 @@ findLongestSubstring('thecatinthehat'); // 7
 findLongestSubstring('bbbbbb'); // 1
 ```
 
-# SOLUTION CENTER
+## SOLUTION CENTER
  |**Pattern Name** | **Solution Count**  | **Solution Link** |
  |:----------------|:-------------------:|:-----------------:|
  | 1. Frequency Counter Pattern |   4    | [See & Practice](#a-frequency-counter-pattern-solution) |
