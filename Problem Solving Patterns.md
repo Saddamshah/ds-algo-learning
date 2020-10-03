@@ -202,43 +202,38 @@ maxSubarraySum([], 4); // null
 
 ### A NAIVE SOLUTION
 ```javascript
-const maxSubarraySum = (arr, n) => {
-  if (n > arr.length) return null;
+function maxsubarraySum(arr, num){
+    if (arr.length < num) return null;
+    let max = 0;
 
-  let ret = -Infinity;
-
-  for (let i = 0; i < arr.length - n + 1; i++) {
-    let temp = 0;
-    for (let j = 0; j < n; j++)
-      temp += arr[i + j];
-
-    ret = Math.max(ret, temp);
-  }
-
-  return ret;
-};
-
+    for(let i = 0; i < arr.length - num + 1; i++){
+        let temp = 0;
+        
+        for(let j = 0; j < num; j++)
+            temp += arr[i+ j];
+            max = Math.max(max, temp)
+    }
+    return max;
+}
 Time Complexity O(N^2)
 ```
 
 ### REFACTORED SOLUTION
 ```javascript
-const maxSubarraySum = (arr, n) => {
-  if (arr.length < n) return null;
+function maxsubarraySum(arr, num){
+   if(arr.length < num) return null;
+   let maxSum  = 0;
+   let tempSum = 0;
+   
+   for(let i = 0; i < num; i++) maxSum += arr[i];
 
-  let ret = 0;
-  let temp = 0;
-
-  for (let i = 0; i < n; i++) ret += arr[i];
-
-  temp = ret;
-  for (let i = n; i < arr.length; i++) {
-    temp = temp - arr[i - n] + arr[i];
-    ret = Math.max(ret, temp);
-  }
-
-  return ret;
-};
+   tempSum = maxSum;
+   for(let i = num; i <arr.length; i++){
+       tempSum = tempSum - arr[i - num] + arr[i];
+       maxSum = Math.max(maxSum, tempSum);
+   }
+   return maxSum;
+}
 
 Time Complexity O(N)  | Space Complexity O(1)
 ```
