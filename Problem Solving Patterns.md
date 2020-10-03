@@ -1,10 +1,10 @@
 ## PROBLEM SOLVING PATTERNS
-   |**Pattern Name** | **Problem Count** | **Problem Link** |
-   |:----------------|:-----------------:|----------------|
-   | 1. Frequency Counter Pattern | 5 | [Read & Explore](#a-frequency-counter-pattern) |
-   | 2. Multiple Pointers Pattern | 5 | [Read & Explore](#b-multiple-pointers-pattern) |
-   | 3. Sliding Window Pattern    | 3 | [Read & Explore](#c-sliding-window-pattern)    |
-   |**Total No of Problems** | **13** | **Let Practice** |
+   |**Pattern Name** | **Exercise Count**  | **Exercise Link** |
+   |:----------------|:-------------------:|-------------------|
+   | 1. Frequency Counter Pattern | 5      | [Read & Explore](#a-frequency-counter-pattern) |
+   | 2. Multiple Pointers Pattern | 5      | [Read & Explore](#b-multiple-pointers-pattern) |
+   | 3. Sliding Window Pattern    | 3      | [Read & Explore](#c-sliding-window-pattern)    |
+   |**Total No of Exercises**      | **13** | **Let Practice** |
 
 
 ## A) Frequency Counter Pattern  
@@ -262,5 +262,80 @@ findLongestSubstring('bbbbbb'); // 1
 ```
 
 # SOLUTIONS
-## A) Frequency Counter Pattern  
+ |**Pattern Name** | **Solution Count**  | **Solution Link** |
+ |:----------------|:-------------------:|-------------------|
+ | 1. Frequency Counter Pattern |   4    | [Read & Explore](#a-frequency-counter-pattern) |
+ | 2. Multiple Pointers Pattern |   4    | [Read & Explore](#b-multiple-pointers-pattern) |
+ | 3. Sliding Window Pattern    |   2    | [Read & Explore](#c-sliding-window-pattern)    |
+ |**Total No of Solution**      | **10** | **Let Practice** |
+ 
+## A) Frequency Counter Pattern Solution
+
+### Exercise No 2
+```javascript
+function validAnagram(str1, str2){
+    if(str1.length !== str2.length) return false;
+
+    let lookup  = {};
+    for(let val of str1)
+        lookup[val] = (lookup[val] || 0) + 1
+
+    for(let val of str2){
+        if(lookup[val]) lookup[val]--;
+        else return false;
+    }
+
+    return true;
+}
+```
+
+### Exercise No 3
+```javascript
+   //coming soon
+```
+
+### Exercise No 4
+```javascript
+   //coming soon
+```
+
+### Exercise No 5
+```javascript
+   //coming soon
+```
+
+## B) Multiple Pointers Pattern Solution
+
+### Exercise No 2
+```javascript
+   //coming soon
+```
+
+### Exercise No 3
+```javascript
+   //coming soon
+```
+
+### Exercise No 4
+```javascript
+   //coming soon
+```
+
+### Exercise No 5
+```javascript
+   //coming soon
+```
+
+## C) Sliding Window Pattern Solution 
+
+### Exercise No 2
+```javascript
+   //coming soon
+```
+
+### Exercise No 3
+```javascript
+   //coming soon
+```
+
 
