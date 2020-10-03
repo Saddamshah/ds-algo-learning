@@ -123,3 +123,23 @@ const strStr = (haystack, needle) => {
 intersection([1,2,2,1], [2,2]);     // [2]
 intersection([4,9,5],[9,4,9,8,4]);  // [9,4]
 ```
+
+### Exercise No 11
+>**capitalized**    
+> Write a function that capitalized every first letter in the given string.
+
+```javascript
+capitalized("coding is best"); // Coding Is Best
+capitalized("What you name ?"); // What Your Name ? 
+```
+
+### Exercise No 12
+>**Find the next perfect square!**    
+> Complete the findNextSquare method that finds the next perfect square after the one passed as a parameter.      
+If the parameter is itself not a perfect square then -1 should be returned. You may assume the parameter is positive.
+
+```javascript
+findNextSquare(121) // returns 144
+findNextSquare(625) // returns 676
+findNextSquare(114) // returns -1 since 114 is not a perfect
+```
