@@ -1,10 +1,10 @@
 ## PROBLEM SOLVING PATTERNS
    |**Pattern Name** | **Problem Count** | **Problem Link** |
-   |:----------------|:-----------------:|:----------------:|
+   |:----------------|:-----------------:|----------------|
    | 1. Frequency Counter Pattern | 5 | [Read and Explore](#a-frequency-counter-pattern) |
-   | 2. Multiple Pointers Pattern | 5 | [Read and Explore](https://github.com/Saddamshah/ds-algo-learning/blob/master/Problem%20Solving%20Patterns.md#b-multiple-pointers-pattern)
-   | 3. Sliding Window Pattern    | 3 | [Read and Explore]()
-   |**Total No of Problems** | **13** | **Best of Luck**
+   | 2. Multiple Pointers Pattern | 5 | [Read and Explore](#b-multiple-pointers-pattern) |
+   | 3. Sliding Window Pattern    | 3 | [Read and Explore](#c-sliding-window-pattern)    |
+   |**Total No of Problems** | **13** | **Best of Luck** |
 
 
 ## A) Frequency Counter Pattern  
