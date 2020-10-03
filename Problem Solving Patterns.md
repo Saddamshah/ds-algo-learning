@@ -1,10 +1,10 @@
 ## PROBLEM SOLVING PATTERNS
    |**Pattern Name** | **Problem Count** | **Problem Link** |
    |:----------------|:-----------------:|----------------|
-   | 1. Frequency Counter Pattern | 5 | [Read and Explore](#a-frequency-counter-pattern) |
-   | 2. Multiple Pointers Pattern | 5 | [Read and Explore](#b-multiple-pointers-pattern) |
-   | 3. Sliding Window Pattern    | 3 | [Read and Explore](#c-sliding-window-pattern)    |
-   |**Total No of Problems** | **13** | **Best of Luck** |
+   | 1. Frequency Counter Pattern | 5 | [Read & Explore](#a-frequency-counter-pattern) |
+   | 2. Multiple Pointers Pattern | 5 | [Read & Explore](#b-multiple-pointers-pattern) |
+   | 3. Sliding Window Pattern    | 3 | [Read & Explore](#c-sliding-window-pattern)    |
+   |**Total No of Problems** | **13** | **Let Practice** |
 
 
 ## A) Frequency Counter Pattern  
@@ -100,8 +100,8 @@ twoSum([3,3], 6)           // [0, 1]
 ```
 
 ## B) Multiple Pointers Pattern  
-     Creating pointers or values that correspond to an index or position and move towards the beginning, end or middle based on a certain condition.     
-     Very efficient for solving problems with minimal Space as well.
+     Creating pointers or values that correspond to an index or position and move towards the beginning, end or   
+     middle based on a certain condition. Very efficient for solving problems with minimal Space as well.
     
 ### Example No 1
 > Write a function called sumZero which accepts a sorted array of integers. The function should find the first pair where the sum is 0. Return an array that includes both values that sum to zero or undefined if a pair does not exist.
@@ -183,11 +183,9 @@ const  isLongPressedName = function(name, typed) {
 }
 ```
 
-
-
 ## C) Sliding Window Pattern   
       This pattern involves creating a window which can either be an array or number from one position to another.    
-      Depending on a certain condition, the window either    increases or closes (and a new window is created).       
+      Depending on a certain condition, the window either increases or closes (and a new window is created).       
       Very useful for keeping track of a subset of data in an array/string etc.
     
 ### Example No 1
