@@ -8,8 +8,8 @@
 |3| Delete Start or Middle | O(N) | `shift()`    | 
 |4| Add End                | O(1) | `push()`     | 
 |5| Delete End             | O(1) | `pop()`      |  
-#### Benefit : Fast Access, Efficient for Insertion & Removal at the ending 
-#### Limitation : Not Efficient for Insertion & removal at the beginning. 
+##### Benefit    : Fast Access, Efficient for Insertion & Removal at the ending 
+##### Limitation : Not Efficient for Insertion & removal at the beginning. 
  
  ***
  
@@ -19,7 +19,4 @@
 |1| Access                 | O(1) | `Object[mykey]       OR Object.key` | 
 |2| Insertion              | O(1) | `Object[key] = value  OR Object.key = value`  | 
 |3| Removal                | O(N) | `delete Object[key]   OR delete Object.key`   |  
-#### Benefits: More Efficient for Fast Access, Insertion and removal.
-#### Limitation : Not Efficient for Insertion & removal at the beginning. 
-
-***
+##### Benefit : More Efficient for Fast Access, Insertion and removal.
