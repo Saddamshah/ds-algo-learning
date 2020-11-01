@@ -20,3 +20,24 @@
 |2| Insertion              | O(1) | `Object[key] = value  OR Object.key = value`  | 
 |3| Removal                | O(N) | `delete Object[key]   OR delete Object.key`   |  
 ##### Benefit : More Efficient for Fast Access, Insertion and removal.
+
+
+## Single linked Lists
+Insertion - **O(1)**
+
+Removal - **It depends.... O(1) or O(N)**
+
+Searching - **O(N)**
+
+Access - **O(N)**
+
+##  Doubly linked Lists
+Insertion - **O(1)**
+
+Removal - **O(1)**
+
+Searching - **O(N)**
+
+Access - **O(N)**
+
+Technically searching is  **O(N / 2)**, but that's  **still O(N)**
