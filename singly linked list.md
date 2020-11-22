@@ -34,7 +34,7 @@ class LinkedList{
 
 ### 1. insertAtHead
 ```javascript
-insertAtHead(value){
+LinkedList.prototype.insertAtHead = function(value){
     this.head = new Node(value, this.head);
     this.length++; 
 }
@@ -42,7 +42,7 @@ insertAtHead(value){
 
 ### 2. removeAtHead
 ```javascript
-removeAtHead(){
+LinkedList.prototype.removeAtHead = function(){
     if(!this.head)  return null;
     this.head = this.head.next;  
     this.length--;  
@@ -52,7 +52,7 @@ removeAtHead(){
 
 ### 3. push
 ```javascript
-push(value){
+LinkedList.prototype.push = function(value){
     let newNode = new Node(value, null)
     if(!this.head) {
         this.head = newNode;
@@ -72,7 +72,7 @@ push(value){
 
 ### 4. pop
 ```javascript
-pop(){
+LinkedList.prototype.pop = function(){
     if(!this.head) return null;
     if(!this.head.next) {
       this.head = null;
@@ -92,8 +92,8 @@ pop(){
 ```
 
 ### 5. getIndex
-```javascrip
-getIndex(index){
+```javascript
+LinkedList.prototype.getIndex = function(index){
     if(index === 0) return this.head;
     if(index < 0 || index >= this.length) return null;
 
@@ -109,7 +109,7 @@ getIndex(index){
 
 ### 6. setIndex
 ```javascript
-setIndex(index, value){
+LinkedList.prototype.setIndex = function(index, value){
     if(index === 0) return this.head.value = value;
     if(index < 0 || index >= this.length) return null;
 
@@ -126,7 +126,7 @@ setIndex(index, value){
 
 ### 7. insertAtIndex
 ```javascript
-insertAtIndex(index, value){
+LinkedList.prototype.insertAtIndex = function(index, value){
     if(index < 0 || index > this.length) return null;
     if(index == 0) return this.insertAtHead(value);
     if(index == this.length) return this.push(value);
@@ -141,7 +141,7 @@ insertAtIndex(index, value){
 
 ### 8. removeAtIndex
 ```javascript
-removeAtIndex(index){
+LinkedList.prototype.removeAtIndex = function(index){
     if(index < 0 || index >= this.length) return null;
     if(index == 0) return this.removeAtHead();
     
@@ -155,7 +155,7 @@ removeAtIndex(index){
 
 ### 9. search
 ```javascript
-search(value){
+LinkedList.prototype.search = function(value){
     if(!this.head) return null;
     let current = this.head;
     while(current){
@@ -170,7 +170,7 @@ search(value){
 
 ### 10. print
 ```javascript
-print(){
+LinkedList.prototype.print function(){
     let current = this.head;
     let output = ``;
     while(current){
@@ -186,7 +186,7 @@ print(){
 
 ### 11. reverse
 ```javascript
-reverse(){
+LinkedList.prototype.reverse = function(){
     let current = this.head;
     let next = null;
     let prev = null;
