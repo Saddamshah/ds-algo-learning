@@ -38,6 +38,8 @@ LinkedList.prototype.insertAtHead = function(value){
     this.head = new Node(value, this.head);
     this.length++; 
 }
+
+Time Complexity  = O(1) | Space Complexity = O(1)
 ```
 
 ### 2. removeAtHead
@@ -48,6 +50,7 @@ LinkedList.prototype.removeAtHead = function(){
     this.length--;  
 }
 
+Time Complexity  = O(1) | Space Complexity = O(1)
 ```
 
 ### 3. push
@@ -68,6 +71,8 @@ LinkedList.prototype.push = function(value){
 
     this.length++;
 }
+
+Time Complexity  = O(N) | Space Complexity = O(1)
 ```
 
 ### 4. pop
@@ -89,6 +94,8 @@ LinkedList.prototype.pop = function(){
     
     this.length--;
 }
+
+Time Complexity  = O(N) | Space Complexity = O(1)
 ```
 
 ### 5. getIndex
@@ -105,6 +112,8 @@ LinkedList.prototype.getIndex = function(index){
     return current;
 
 }
+
+Time Complexity  = O(N) | Space Complexity = O(1)
 ```
 
 ### 6. setIndex
@@ -122,6 +131,8 @@ LinkedList.prototype.setIndex = function(index, value){
     return current;
 
 }
+
+Time Complexity  = O(N) | Space Complexity = O(1)
 ```
 
 ### 7. insertAtIndex
@@ -137,6 +148,8 @@ LinkedList.prototype.insertAtIndex = function(index, value){
     
     this.length++;
 }
+
+Time Complexity  = O(N) | Space Complexity = O(1)
 ```
 
 ### 8. removeAtIndex
@@ -151,6 +164,8 @@ LinkedList.prototype.removeAtIndex = function(index){
     
     this.length--;
 }
+
+Time Complexity  = O(N) | Space Complexity = O(1)
 ```
 
 ### 9. search
@@ -166,6 +181,8 @@ LinkedList.prototype.search = function(value){
 
     return false;
 }
+
+Time Complexity  = O(N) | Space Complexity = O(1)
 ```
 
 ### 10. print
@@ -182,6 +199,8 @@ LinkedList.prototype.print function(){
 
   }
 }
+
+Time Complexity  = O(N) | Space Complexity = O(1)
 ```
 
 ### 11. reverse
@@ -200,4 +219,6 @@ LinkedList.prototype.reverse = function(){
       this.head = prev;
     return prev;
 }
+
+Time Complexity  = O(N) | Space Complexity = O(1)
 ```
